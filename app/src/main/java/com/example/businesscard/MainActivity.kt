@@ -100,7 +100,7 @@ fun HeaderCard(name: String, title : String, phone: String, social: String, emai
             ) {
                 Column (verticalArrangement = Arrangement.Bottom,modifier = modifier
                     .weight(1f)
-                    .padding(50.dp, 0.dp, 50.dp, 0.dp)
+                    .padding(50.dp)
                 ){
                     Row(modifier = Modifier) {
                         Image(painter = ph, contentDescription = null)
